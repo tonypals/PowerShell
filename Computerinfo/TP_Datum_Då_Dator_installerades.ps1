@@ -1,0 +1,1 @@
+﻿([WMI] "").ConvertToDateTime((Get-WmiObject Win32_OperatingSystem -ComputerName gotlt40950).InstallDate)
