@@ -1,0 +1,1 @@
+﻿gps | where-Object {$_.name -like "*word*"} # -And $_.name -and "*Outlook"}
