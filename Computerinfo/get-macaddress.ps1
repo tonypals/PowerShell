@@ -1,0 +1,1 @@
+﻿Get-CimInstance win32_networkadapterconfiguration | where {$_.Description -like "*(4)*"} | select description, macaddress
