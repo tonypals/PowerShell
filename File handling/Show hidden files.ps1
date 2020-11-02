@@ -1,0 +1,1 @@
+﻿Get-ChildItem -Attributes Hidden, !Hidden nt*.dat
